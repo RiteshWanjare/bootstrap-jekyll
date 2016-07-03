@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <div id="page-maxheight">
+      {% include header.html %}
+
+      <div class="page-content container">
+        <div class="wrapper">
+          {{ content }}
+        </div>
+      </div>
+
+      {% include footer.html %}
+    </div> 
+  </body>
+
+</html>

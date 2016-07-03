@@ -1,0 +1,49 @@
+//== Colors
+$base-color:            #1c8cee !default;
+$base-border-color:		#bcbec0 !default;
+$white-color:           #ffffff !default;
+
+$brand-primary:         darken(#428bca, 6.5%) !default; // #337ab7
+$brand-success:         #5cb85c !default;
+$brand-info:            #5bc0de !default;
+$brand-warning:         #f0ad4e !default;
+$brand-danger:          #d9534f !default;
+
+//== Scaffolding
+//
+//## Settings for some of the most global styles.
+
+// Background color for `<body>`.
+$body-bg:               #fff !default;
+// Global text color on `<body>`.
+$text-color:            #58595b !default;;
+
+// Global textual link color.
+$link-color:            $brand-primary !default;
+// Link hover color set via `darken()` function.
+$link-hover-color:      darken($link-color, 15%) !default;
+// Link hover decoration.
+$link-hover-decoration: underline !default;
+
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+
+$font-family-source-sans-pro:  "Source Sans Pro", sans-serif !default;
+$font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
+
+// Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+$font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
+$font-family-base:        $font-family-source-sans-pro !default;
+
+$font-size-base:          14px !default;
+$font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
+
+$font-size-h1:            floor(($font-size-base * 2.0)) !default; // ~36px
+$font-size-h2:            floor(($font-size-base * 2.15)) !default; // ~30px
+$font-size-h3:            ceil(($font-size-base * 1.7)) !default; // ~24px
+$font-size-h4:            ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-h5:            $font-size-base !default;
+$font-size-h6:            ceil(($font-size-base * 0.85)) !default; // ~12px

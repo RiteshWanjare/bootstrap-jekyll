@@ -1,2 +1,2 @@
 # bootstrap-jekyll
-Default setup bootstrap + jekyll
+Default setup bootstrap + jekyll 
